@@ -38,7 +38,7 @@ namespace SupermarketSystem
                                 Console.WriteLine("Indica el nombre del producto:");
                                 var productNameId = Console.ReadLine();
                                 productsList.Add(productNameId);
-                                Console.WriteLine("Ingresa el precio del producto:");
+                                Console.WriteLine("Indica el precio del producto:");
                                 var productPrice = Console.ReadLine();
                                 float productPriceParced = float.Parse(productPrice);
                                 priceList.Add(productPriceParced);
