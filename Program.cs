@@ -44,7 +44,7 @@ namespace SupermarketSystem
                                 priceList.Add(productPriceParced);
                                 break;
                             case "2" when (selectionMenu == "2"): //Eliminar producto
-                                Console.WriteLine("Indica el producto por eliminar: ");
+                                Console.WriteLine("Indica el producto por eliminar, escribelo porfavór: ");
                                 foreach (string productoList in productsList)
                                 {
                                     Console.WriteLine(productoList);
